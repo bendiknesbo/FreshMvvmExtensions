@@ -11,7 +11,7 @@
     <TemplateID>f92cd0cd-e9ab-412c-976c-66188407a92a</TemplateID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
-    <DefaultName>Class2</DefaultName>
+    <DefaultName>Obj</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
