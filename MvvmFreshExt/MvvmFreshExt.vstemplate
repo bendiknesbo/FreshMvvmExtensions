@@ -26,5 +26,8 @@
       <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Page.xaml" ReplaceParameters="true">ObjPage.xaml</ProjectItem>
       <ProjectItem SubType="Code" TargetFileName="$fileinputname$Page.xaml.cs" ReplaceParameters="true">ObjPage.xaml.cs</ProjectItem>
     </Folder>
+    <CustomParameters>
+      <CustomParameter Name="$basename$" Value="$fileinputname$"/>
+    </CustomParameters>
   </TemplateContent>
 </VSTemplate>

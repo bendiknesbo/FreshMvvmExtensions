@@ -1,7 +1,7 @@
 ﻿using FreshMvvm;
 
 namespace $rootnamespace$ {
-    public class $safeitemname$PageModel : FreshBasePageModel {
+    public class $basename$PageModel : FreshBasePageModel {
 
     }
 }

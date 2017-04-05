@@ -1,8 +1,8 @@
 ﻿using FreshMvvm;
 
 namespace $rootnamespace$ {
-    public partial class $safeitemname$Page : FreshBaseContentPage {
-        public $safeitemname$Page() {
+    public partial class $basename$Page : FreshBaseContentPage {
+        public $basename$Page() {
             InitializeComponent();
         }
     }
