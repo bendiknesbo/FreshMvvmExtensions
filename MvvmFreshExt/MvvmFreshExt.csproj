@@ -78,7 +78,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MvvmFreshExt.ico" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,7 +85,9 @@
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="icon.ico" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Pages\QuotePage.xaml">
       <SubType>Designer</SubType>
