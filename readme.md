@@ -3,8 +3,8 @@
 Thus I created this Visual Studio Extension that creates a blank FreshBasePageModel and FreshBaseContentPage (with d:DataContext for Design-time binding) with the naming-convention that FreshMvvm uses.
 
 # How to install
-TODO: I will make the extension available on the Visual Studio Marketplace.  
-Can also install the .vsix directly. Find the newest release on the [releases page](https://github.com/XplittR/FreshMvvmExtensions/releases/)
+Install from [Visual Studio Marketplace](https://marketplace.visualstudio.com/vsgallery/a3bdb812-8470-40b5-94e3-7c0cc6fe2aaa).  
+Or: download and install the .vsix directly. Find the newest release on the [releases page](https://github.com/XplittR/FreshMvvmExtensions/releases/)
 
 # How to use
 * Right-click the PCL-project-root -> "Add" -> "New Item..."
