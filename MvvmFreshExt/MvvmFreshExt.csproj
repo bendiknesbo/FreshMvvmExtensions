@@ -71,7 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="PageModels\ObjPageModel.cs" />
+    <None Include="ObjPageModel.cs" />
     <None Include="Pages\ObjPage.xaml.cs">
       <DependentUpon>ObjPage.xaml</DependentUpon>
     </None>
@@ -86,7 +86,9 @@
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="PageModels\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Pages\ObjPage.xaml">
       <SubType>Designer</SubType>

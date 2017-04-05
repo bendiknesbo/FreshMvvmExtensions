@@ -5,7 +5,7 @@
     xmlns:freshMvvm="clr-namespace:FreshMvvm;assembly=FreshMvvm"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:pageModels="clr-namespace:MvvmFreshExt.PageModels;assembly=MvvmFreshExt"
+    xmlns:pageModels="clr-namespace:$rootnamespace$.PageModels;assembly=$rootnamespace$"
     mc:Ignorable="d" d:DataContext="{d:DesignInstance pageModels:$basename$PageModel}"
-    x:Class="$rootnamespace$.$basename$Page">
+    x:Class="$rootnamespace$.Pages.$basename$Page">
 </freshMvvm:FreshBaseContentPage>

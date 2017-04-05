@@ -11,21 +11,14 @@
     <TemplateID>f92cd0cd-e9ab-412c-976c-66188407a92a</TemplateID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
-    <DefaultName>Obj</DefaultName>
+    <DefaultName>Quote</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
-    <Folder Name="PageModels" TargetFolderName="PageModels">
-      <ProjectItem SubType="Code" TargetFileName="$fileinputname$PageModel.cs" ReplaceParameters="true">ObjPageModel.cs</ProjectItem>
-    </Folder>
-    <Folder Name="Pages" TargetFolderName="Pages">
-      <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Page.xaml" ReplaceParameters="true">ObjPage.xaml</ProjectItem>
-      <ProjectItem SubType="Code" TargetFileName="$fileinputname$Page.xaml.cs" ReplaceParameters="true">ObjPage.xaml.cs</ProjectItem>
-    </Folder>
+    <Folder Name="PageModels" TargetFolderName="PageModels"/>
+    <Folder Name="Pages" TargetFolderName="Pages"/>
+    <ProjectItem SubType="Code" TargetFileName="/PageModels/$fileinputname$PageModel.cs" ReplaceParameters="true">PageModels/ObjPageModel.cs</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="/Pages/$fileinputname$Page.xaml" ReplaceParameters="true">Pages/ObjPage.xaml</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="/Pages/$fileinputname$Page.xaml.cs" ReplaceParameters="true">Pages/ObjPage.xaml.cs</ProjectItem>
     <CustomParameters>
       <CustomParameter Name="$basename$" Value="$fileinputname$"/>
     </CustomParameters>

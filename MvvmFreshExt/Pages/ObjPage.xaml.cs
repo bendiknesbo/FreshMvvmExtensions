@@ -1,6 +1,6 @@
 ﻿using FreshMvvm;
 
-namespace $rootnamespace$ {
+namespace $rootnamespace$.Pages {
     public partial class $basename$Page : FreshBaseContentPage {
         public $basename$Page() {
             InitializeComponent();
