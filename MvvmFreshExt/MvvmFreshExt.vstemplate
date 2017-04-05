@@ -2,7 +2,11 @@
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Forms Blank MvvmFresh Page and PageModel</Name>
-    <Description>Creates a new Blank FreshBaseContentPage and FreshBasePageModel in the correct folders, following conventions.</Description>
+    <Description>Creates a new Blank FreshBaseContentPage and FreshBasePageModel in the correct folders, following conventions.
+
+Only add this directly to the PCL, not to a folder.
+
+GitHub: http://www.github.com</Description>
     <Icon>icon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
