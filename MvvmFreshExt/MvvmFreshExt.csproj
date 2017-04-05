@@ -71,9 +71,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ObjPageModel.cs" />
-    <None Include="Pages\ObjPage.xaml.cs">
-      <DependentUpon>ObjPage.xaml</DependentUpon>
+    <None Include="PageModels\QuotePageModel.cs" />
+    <None Include="Pages\QuotePage.xaml.cs">
+      <DependentUpon>QuotePage.xaml</DependentUpon>
     </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,11 +86,9 @@
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="PageModels\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Pages\ObjPage.xaml">
+    <None Include="Pages\QuotePage.xaml">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

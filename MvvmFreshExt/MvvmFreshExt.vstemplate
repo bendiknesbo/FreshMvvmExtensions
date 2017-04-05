@@ -14,13 +14,13 @@
     <DefaultName>Quote</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <Folder Name="PageModels" TargetFolderName="PageModels"/>
-    <Folder Name="Pages" TargetFolderName="Pages"/>
-    <ProjectItem SubType="Code" TargetFileName="/PageModels/$fileinputname$PageModel.cs" ReplaceParameters="true">PageModels/ObjPageModel.cs</ProjectItem>
-    <ProjectItem SubType="Designer" TargetFileName="/Pages/$fileinputname$Page.xaml" ReplaceParameters="true">Pages/ObjPage.xaml</ProjectItem>
-    <ProjectItem SubType="Code" TargetFileName="/Pages/$fileinputname$Page.xaml.cs" ReplaceParameters="true">Pages/ObjPage.xaml.cs</ProjectItem>
+    <Folder Name="PageModels" TargetFolderName="PageModels" />
+    <Folder Name="Pages" TargetFolderName="Pages" />
+    <ProjectItem SubType="Code" TargetFileName="/PageModels/$fileinputname$PageModel.cs" ReplaceParameters="true">PageModels/QuotePageModel.cs</ProjectItem>
+    <ProjectItem ItemType="EmbeddedResource" SubType="Designer" TargetFileName="/Pages/$fileinputname$Page.xaml" ReplaceParameters="true" CustomTool="MSBuild:UpdateDesignTimeXaml">Pages/QuotePage.xaml</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="/Pages/$fileinputname$Page.xaml.cs" ReplaceParameters="true">Pages/QuotePage.xaml.cs</ProjectItem>
     <CustomParameters>
-      <CustomParameter Name="$basename$" Value="$fileinputname$"/>
+      <CustomParameter Name="$basename$" Value="$fileinputname$" />
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
