@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MvvmFreshExt")]
+[assembly: AssemblyTitle("FreshMvvmExt")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bendik Nesbo")]
-[assembly: AssemblyProduct("MvvmFreshExt")]
+[assembly: AssemblyProduct("FreshMvvmExt")]
 [assembly: AssemblyCopyright("Copyright © Bendik Nesbo 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

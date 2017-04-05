@@ -53,9 +53,9 @@
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvvmFreshExt\MvvmFreshExt.csproj">
+    <ProjectReference Include="..\FreshMvvmExt\FreshMvvmExt.csproj">
       <Project>{98DD3611-5EDF-4118-9BC5-D0B90179D5D2}</Project>
-      <Name>MvvmFreshExt</Name>
+      <Name>FreshMvvmExt</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

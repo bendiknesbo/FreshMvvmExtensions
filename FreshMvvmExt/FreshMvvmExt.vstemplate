@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Forms Blank MvvmFresh Page and PageModel</Name>
+    <Name>Forms Blank FreshMvvm Page and PageModel</Name>
     <Description>Creates a new Blank FreshBaseContentPage and FreshBasePageModel in the correct folders, following conventions.
 
 Only add this directly to the PCL, not to a folder.
