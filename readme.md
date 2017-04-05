@@ -58,7 +58,8 @@ namespace MyProject.PageModels {
 ```
 
 ## Issues?
-If you encounter any issues, have any feature requests or pull requests, please do not hesitate to submit them!
+If you encounter any issues, have any feature requests or pull requests, please do not hesitate to submit them!  
+I have only tested with Microsoft Visual Studio Enterprise 2017.
 
 ## Thanks
 - Thanks to Microsoft for creating [Xamarin.Forms](https://www.xamarin.com/).

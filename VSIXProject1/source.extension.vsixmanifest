@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="VSIXProject1.Bendik Nesbo.644df3b0-2657-4654-8fae-78d4ba1c4656" Version="1.0" Language="en-US" Publisher="Bendik Nesbo" />
-    <DisplayName>VSIXProject1</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Identity Id="FreshMvvmNewItemExt.Bendik Nesbo.644df3b0-2657-4654-8fae-78d4ba1c4656" Version="1.0" Language="en-US" Publisher="Bendik August Nesbø" />
+    <DisplayName>FreshMvvm New Item Extensions</DisplayName>
+    <Description xml:space="preserve">Creates a new Blank FreshBaseContentPage and FreshBasePageModel in the correct folders, following conventions.
+
+Only add this directly to the PCL, not to a folder.</Description>
+    <MoreInfo>https://github.com/XplittR/FreshMvvmExtensions</MoreInfo>
+    <Icon>icon.ico</Icon>
+    <Tags>FreshMvvm, New item</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[15.0]" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />

@@ -6,7 +6,7 @@
 
 Only add this directly to the PCL, not to a folder.
 
-GitHub: http://www.github.com</Description>
+GitHub: github.com/XplittR/FreshMvvmExtensions</Description>
     <TemplateID>f92cd0cd-e9ab-412c-976c-66188407a92a</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>90</SortOrder>
