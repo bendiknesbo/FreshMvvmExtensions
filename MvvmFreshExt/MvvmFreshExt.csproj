@@ -71,14 +71,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PageModels\ObjPageModel.cs" />
-    <Compile Include="Pages\ObjPage.xaml.cs">
+    <None Include="PageModels\ObjPageModel.cs" />
+    <None Include="Pages\ObjPage.xaml.cs">
       <DependentUpon>ObjPage.xaml</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Class2.cs" />
     <None Include="MvvmFreshExt.ico" />
     <None Include="packages.config" />
   </ItemGroup>

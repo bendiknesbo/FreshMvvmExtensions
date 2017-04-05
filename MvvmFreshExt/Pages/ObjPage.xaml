@@ -6,6 +6,6 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:pageModels="clr-namespace:MvvmFreshExt.PageModels;assembly=MvvmFreshExt"
-    mc:Ignorable="d" d:DataContext="{d:DesignInstance pageModels:ObjPageModel}"
-    x:Class="MvvmFreshExt.Pages.ObjPage">
+    mc:Ignorable="d" d:DataContext="{d:DesignInstance pageModels:$safeitemname$PageModel}"
+    x:Class="$rootnamespace$.$safeitemname$Page">
 </freshMvvm:FreshBaseContentPage>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>MvvmFreshExt</Name>
@@ -19,6 +19,12 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true">Class2.cs</ProjectItem>
+    <Folder Name="PageModels" TargetFolderName="PageModels">
+      <ProjectItem SubType="Code" TargetFileName="$fileinputname$PageModel.cs" ReplaceParameters="true">ObjPageModel.cs</ProjectItem>
+    </Folder>
+    <Folder Name="Pages" TargetFolderName="Pages">
+      <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Page.xaml" ReplaceParameters="true">ObjPage.xaml</ProjectItem>
+      <ProjectItem SubType="Code" TargetFileName="$fileinputname$Page.xaml.cs" ReplaceParameters="true">ObjPage.xaml.cs</ProjectItem>
+    </Folder>
   </TemplateContent>
 </VSTemplate>

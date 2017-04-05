@@ -1,8 +1,8 @@
 ﻿using FreshMvvm;
 
-namespace MvvmFreshExt.Pages {
-    public partial class ObjPage : FreshBaseContentPage {
-        public ObjPage() {
+namespace $rootnamespace$ {
+    public partial class $safeitemname$Page : FreshBaseContentPage {
+        public $safeitemname$Page() {
             InitializeComponent();
         }
     }

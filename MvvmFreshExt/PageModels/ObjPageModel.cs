@@ -1,7 +1,7 @@
 ﻿using FreshMvvm;
 
-namespace MvvmFreshExt.PageModels {
-    public class ObjPageModel : FreshBasePageModel {
+namespace $rootnamespace$ {
+    public class $safeitemname$PageModel : FreshBasePageModel {
 
     }
 }
