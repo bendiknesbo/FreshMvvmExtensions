@@ -7,14 +7,13 @@
 Only add this directly to the PCL, not to a folder.
 
 GitHub: http://www.github.com</Description>
-    <Icon>icon.ico</Icon>
-    <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
-    <SortOrder>1000</SortOrder>
     <TemplateID>f92cd0cd-e9ab-412c-976c-66188407a92a</TemplateID>
-    <AppliesTo>CSharp + MultiTarget</AppliesTo>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>90</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Quote</DefaultName>
+    <AppliesTo>CSharp + (WindowsXaml | MultiTarget | XamarinXaml) + !SharedAssetsProject</AppliesTo>
+    <Icon>icon.ico</Icon>
   </TemplateData>
   <TemplateContent>
     <Folder Name="PageModels" TargetFolderName="PageModels" />
