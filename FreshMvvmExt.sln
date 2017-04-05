@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshMvvmExt", "FreshMvvmExt\FreshMvvmExt.csproj", "{98DD3611-5EDF-4118-9BC5-D0B90179D5D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIXProject1", "VSIXProject1\VSIXProject1.csproj", "{688C87B5-A536-4AB5-97EC-454B9D179175}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshMvvmNewItemExt", "FreshMvvmNewItemExt\FreshMvvmNewItemExt.csproj", "{688C87B5-A536-4AB5-97EC-454B9D179175}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

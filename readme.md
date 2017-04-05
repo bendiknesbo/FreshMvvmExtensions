@@ -4,7 +4,7 @@ Thus I created this Visual Studio Extension that creates a blank FreshBasePageMo
 
 # How to install
 TODO: Will create an extension on the visual studio market or something.  
-For now: Run VSIXProject1-project in visual studio to open an Experimental Instance of visual studio with the template installed. (Requires Visual Studio Extension SDK)
+For now: Run FreshMvvmNewItemExt-project in visual studio to open an Experimental Instance of visual studio with the template installed. (Requires Visual Studio Extension SDK)
 
 # How to use
 * Right-click the PCL-project-root -> "Add" -> "New Item..."
