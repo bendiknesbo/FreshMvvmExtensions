@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>MvvmFreshExt</Name>
-    <Description>MvvmFreshExt</Description>
-    <Icon>MvvmFreshExt.ico</Icon>
+    <Name>MvvmFresh Page and PageModel</Name>
+    <Description>Creates a FreshBaseContentPage and a FreshBasePageModel in the correct folders, following conventions.</Description>
+    <Icon>icon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Web</ProjectSubType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>f92cd0cd-e9ab-412c-976c-66188407a92a</TemplateID>
