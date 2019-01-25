@@ -2,6 +2,9 @@
 [FreshMvvm](https://github.com/rid00z/FreshMvvm) makes developing Xamarin.Forms-apps easier, but creating a new Page and PageModel can be tiresome, when all the references has to be set up correctly, and in the correct folders.  
 Thus I created this Visual Studio Extension that creates a blank FreshBasePageModel and FreshBaseContentPage (with d:DataContext for Design-time binding) with the naming-convention that FreshMvvm uses.
 
+# Note: No longer being actively maintained.
+This repo is no longer being actively maintained, but if anyone wants to continue the project or have small fixes, then feel free to get in contact or submit a pull-request.
+
 # How to install (Choose one)
 * From Visual Studio:
   * "Tools" -> "Extensions and Updates..." -> "Online"
